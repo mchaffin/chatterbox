@@ -4,7 +4,7 @@ import { USER_CONNECTED, LOGOUT, VERIFY_USER } from '../Events'
 import LoginForm from './LoginForm'
 import ChatContainer from './chats/ChatContainer'
 
-const socketUrl = ":443/"
+const socketUrl = "/"
 //const socketUrl = document.location.origin
 
 export default class Layout extends Component {
